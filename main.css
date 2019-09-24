@@ -110,13 +110,14 @@ nav li {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 21rem;
+  width: 24em;
   border-radius: 5px;
   margin: 2rem; }
 
 .card-body {
   background-color: #fff;
-  padding: 3rem; }
+  padding: 3rem;
+  line-height: 1.6; }
 
 .how-it-works-wrapper {
   width: 100%;
@@ -138,14 +139,52 @@ nav li {
 #use-today h1 {
   text-align: center;
   padding-top: 3rem;
-  margin-left: 8rem;
-  margin-right: 8rem; }
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: 2.2rem; }
 
 .hero-button {
   display: flex;
   justify-content: center; }
 
 #use-today p {
-  margin: 5rem; }
+  margin: 5rem;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1.2rem; }
+
+footer p {
+  text-align: center; }
+
+@media (min-width: 800px) {
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red; }
+
+  .the-bot {
+    width: auto;
+    height: 50%; }
+
+  .hero-content {
+    width: 40vw; }
+
+  .what-is-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+
+  .what-is-wrapper p {
+    width: 35vw; }
+
+  .what-is-body {
+    width: 75%;
+    margin-left: 15rem; }
+
+  .how-it-works-wrapper {
+    display: flex;
+    flex-direction: row; } }
 
 /*# sourceMappingURL=main.css.map */
