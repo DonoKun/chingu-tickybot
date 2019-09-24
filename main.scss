@@ -13,6 +13,12 @@ $green: #90DDAA;
     font-family: 'Signika', sans-serif;
 }
 
+// fade in effect
+#fade {
+    opacity: 0;
+    transition: 2s;
+}
+
 // Nav bar and header
 
 nav {
@@ -147,6 +153,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+    opacity: 0;
 }
 
 // start using today

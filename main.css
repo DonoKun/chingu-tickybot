@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family: 'Signika', sans-serif; }
 
+#fade {
+  opacity: 0;
+  transition: 2s; }
+
 nav {
   background-color: #40596B;
   padding: .75rem; }
@@ -128,7 +132,9 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  transition: 2s;
+  opacity: 0; }
 
 .dark-hero-btn {
   background-color: #40596B;
