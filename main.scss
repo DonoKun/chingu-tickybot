@@ -28,6 +28,9 @@ nav {
     font-size: 1.25rem;
 } nav li {
     padding: .5rem;
+} nav a:hover {
+    transition: 1s;
+    color: #fff;
 }
 
 .hero {
@@ -191,7 +194,6 @@ footer p {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        border: 3px solid red;
     } .the-bot {
         width: auto;
         height: 50%;
