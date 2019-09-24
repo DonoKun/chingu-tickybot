@@ -154,7 +154,9 @@ nav li {
   font-size: 1.2rem; }
 
 footer p {
-  text-align: center; }
+  text-align: center;
+  background-color: #40596B;
+  padding: 2rem; }
 
 @media (min-width: 800px) {
   .hero {
@@ -185,6 +187,11 @@ footer p {
 
   .how-it-works-wrapper {
     display: flex;
-    flex-direction: row; } }
+    flex-direction: row; }
+
+  #use-today p {
+    font-size: 1.3rem;
+    width: 30vw;
+    margin: 3rem auto; } }
 
 /*# sourceMappingURL=main.css.map */

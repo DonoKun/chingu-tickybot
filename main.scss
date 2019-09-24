@@ -180,6 +180,8 @@ nav {
 
 footer p {
    text-align: center;
+   background-color: $dark-blue;
+   padding: 2rem;
 }
 
 // media queries
@@ -214,6 +216,15 @@ footer p {
     .how-it-works-wrapper {
         display: flex;
         flex-direction: row;
+    }
+
+    // use today
+
+
+    #use-today p {
+        font-size: 1.3rem;
+        width: 30vw;
+        margin: 3rem auto;
     }
     
 }
