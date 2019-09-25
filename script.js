@@ -7,3 +7,8 @@ window.onload = function() {
 window.onscroll = function() {
     document.querySelector('.how-it-works-wrapper').style.opacity = 1;
 }
+
+// smooth scroll
+const scroll = new SmoothScroll('.navbar, a[href*="#"]', 
+    {speed: 1000}
+);

@@ -102,7 +102,7 @@ nav {
     flex-direction: column;
 } .what-is-wrapper p {
     padding: 1rem 3rem;
-}
+} 
 
 #what-is p {
     padding-left: 3rem;
@@ -189,6 +189,17 @@ nav {
     font-size: 1.2rem;
 }
 
+
+.floating-btn {
+    background-color: $yellow;
+    width: 50px;
+    height: 50px;
+    padding: .3rem;
+    position: fixed; 
+    right: 40px;
+    bottom: 30px;
+}
+
 footer p {
    text-align: center;
    background-color: $dark-blue;
@@ -216,9 +227,10 @@ footer p {
         justify-content: center;
     } .what-is-wrapper p {
         width: 35vw;
-    } .what-is-body {
-        width: 75%;
-        margin-left: 15rem;
+    }  .what-is-body {
+        width: 71%;
+        margin: 0 auto;
+        
     }
    
 
